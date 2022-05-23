@@ -1,5 +1,5 @@
 let skewed =document.querySelector('.angel');
 window.addEventListener('scroll',function(){
-    let value = -20 + window.scrollY/14;
+    let value = -25 + window.scrollY/10;
     skewed.style.transform = "skewY("+value+"deg)";
 })
